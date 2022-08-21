@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding: 40px 0;
+    background-color: #ccc;
+}
+.header-heading h1{
+    text-transform: capitalize;
+    color: orange;
+    font-weight: bold;
+}
+.para p{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.country-info{
+    padding: 40px 0;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.form-control{
+    border-radius: 50px;
+}
+.navbar{
+    list-style: none;
+
+}
+.navbar li{
+    width: 100px;
+    background-color: orange;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+}
+.main-info{
+    background-color: #ccc;
+    padding: 20px;
+}
+.card{
+    height: 350px;
+    width: 250px;
+}
+.flag{
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+}
+.figcaption h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: orange;
+    font-size: 20px;
+    padding-top: 20px;
+}
+figure h2,h3,h4{
+    font-size: 15px;
+    display: inline-block;
+}
+span i{
+    position: absolute;
+    left: 100%;
+    top: 10%;
+    font-size: 45px;
+    color: orange;
+}
